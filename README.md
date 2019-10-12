@@ -17,4 +17,17 @@
 * [Spring Boot Extension Pack](https://www.jianshu.com/p/619567d31311)
 * [FreeMarker](https://blog.csdn.net/weixin_33966095/article/details/91420243)
 
+### 前端
+
+* [Bootstrap](https://v3.bootcss.com/)
+* [Jquery](https://www.runoob.com/jquery/jquery-tutorial.html)
+* [Jquery Ajax](https://www.cnblogs.com/yebingtang/p/11049948.html)
+
+### 后端
+
+* [WebSocket](https://blog.csdn.net/moshowgame/article/details/80275084)
+* [Cache](https://www.cnblogs.com/yueshutong/p/9381540.html)
+* [Schedule](https://blog.csdn.net/tobearc/article/details/89857066)
+* [Swagger](https://blog.csdn.net/u012702547/article/details/88775298)
+
 
