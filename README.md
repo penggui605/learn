@@ -1,5 +1,10 @@
 # 学习指引
 
+### 启动
+
+安装JDK 1.8和Gradle,设置环境变量C:\gradle-5.6.1\bin
+命令行运行gradle bootrun
+
 ### spring模块
 
 * [Gradle](https://blog.csdn.net/FanErZong/article/details/94484214)
