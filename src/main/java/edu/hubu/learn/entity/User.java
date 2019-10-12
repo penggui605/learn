@@ -15,4 +15,7 @@ public class User {
     private String username;
 
     private String password;
+
+    @Column(name="avatar_url")
+    private String avatar;
 }
