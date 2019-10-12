@@ -1,25 +1,20 @@
-# Getting Started
+# 学习指引
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### spring模块
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.1.7.RELEASE/gradle-plugin/reference/html/)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#using-boot-devtools)
-* [Spring Web Starter](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-jpa-and-spring-data)
-* [Apache Freemarker](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-spring-mvc-template-engines)
+* [Gradle](https://blog.csdn.net/FanErZong/article/details/94484214)
+* [DevTools](https://blog.csdn.net/qq_27886997/article/details/82799217)
+* [Web Starter](https://blog.csdn.net/jingtianyiyi/article/details/80529368)
+* [Data JPA](https://www.jianshu.com/p/aebc011fcb7d)
+* [Freemarker](http://freemarker.foofun.cn/a)
 
-### Guides
-The following guides illustrate how to use some features concretely:
+### vscode推荐插件
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+* [gitlens](https://www.cnblogs.com/wangpinzhou/articles/8997469.html)
+* [lombok](https://www.cnblogs.com/heyonggang/p/8638374.html)
+* [beautify](https://blog.csdn.net/qianbin3200896/article/details/84649977)
+* [Java Extension Pack](https://blog.csdn.net/antony1776/article/details/80298326)
+* [Spring Boot Extension Pack](https://www.jianshu.com/p/619567d31311)
+* [FreeMarker](https://blog.csdn.net/weixin_33966095/article/details/91420243)
 
-### Additional Links
-These additional references should also help you:
-
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
 
