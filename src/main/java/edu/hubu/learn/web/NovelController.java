@@ -62,6 +62,7 @@ public class NovelController {
         return mav;
     }
 
+    
     @RequestMapping("/modify/{id}")
     public ModelAndView modifyNovel(@PathVariable Long id) {
         ModelAndView mav = new ModelAndView();
