@@ -22,25 +22,27 @@
     <div class="row">
       <div class="col-md-4">
         <ul class="nav nav-pills nav-stacked">
-          <li role="presentation"><a href="/user/list">列表</a></li>
-          <li role="presentation"><a href="/user/add">新增</a></li>
-          <li role="presentation" class="active"><a href="#">修改</a></li>
-          <li role="presentation"><a href="/user/search">搜索</a></li>
+          <li role="presentation" class="active"><a href="/novel/list">列表</a></li>
+          <li role="presentation"><a href="/novel/add">新增</a></li>
+          <li role="presentation"><a href="/novel/search">搜索</a></li>
         </ul>
       </div>
       <div class="col-md-8">      
-        <form action="/user/do_modify">
-            <input type="hidden"id="id" name="id" value="${user.id}">
-            <div class="form-group">
-                <label for="username">用户名</label>
-                <input type="text" class="form-control" id="username" name="username" value="${user.username}" placeholder="请输入用户名">
-            </div>
-            <div class="form-group">
-                <label for="password">密码</label>
-                <input type="password" class="form-control" id="password" name="password" value="${user.password}" placeholder="请输入密码">
-            </div>
-            <button type="submit" class="btn btn-default">确认</button>
-        </form>
+        <table class="table table-hover">
+          <thead>
+          <th>ID</th><th>书名</th><th>作者</th><th>类型</th><th>删除</th><th>修改</th>
+          </thead>
+          <tbody>
+          <#list novels as novel>
+          <tr>
+          <td>${novel.id}</td><td>${novel.novelname}</td><td>${novel.writer}</td><td>${novel.type}</td>
+          <td><a href="/novel/delete/${novel.id}">删除</a></td>
+          <td><a href="/novel/modify/${novel.id}">修改</a></td>
+         
+          </tr>
+          </#list>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>

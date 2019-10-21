@@ -22,16 +22,24 @@
     <div class="row">
       <div class="col-md-4">
         <ul class="nav nav-pills nav-stacked">
-          <li role="presentation"><a href="/user/list">列表</a></li>
-          <li role="presentation" class="active"><a href="/user/add">新增</a></li>
-          <li role="presentation"><a href="/user/search">搜索</a></li>
+          <li role="presentation"><a href="/novel/list">列表</a></li>
+          <li role="presentation" class="active"><a href="/novel/add">新增</a></li>
+          <li role="presentation"><a href="/novel/search">搜索</a></li>
         </ul>
       </div>
       <div class="col-md-8">      
-        <form action="/user/do_add_avatar/${user.id}" enctype="multipart/form-data" method="post">
+        <form action="/novel/do_add">
             <div class="form-group">
-                <label for="avatar">头像图片</label>
-                <input type="file" class="form-control" id="avatar" name="avatar" placeholder="请选择图片">
+                <label for="novelname">书名</label>
+                <input type="text" class="form-control" id="novelname" name="novelname" placeholder="请输入书名">
+            </div>
+            <div class="form-group">
+                <label for="writer">作者</label>
+                <input type="text" class="form-control" id="writer" name="writer" placeholder="请输入作者">
+            </div>
+            <div class="form-group">
+                <label for="type">类型</label>
+                <input type="text" class="form-control" id="type" name="type" placeholder="请输入类型">
             </div>
             <button type="submit" class="btn btn-default">确认</button>
         </form>
