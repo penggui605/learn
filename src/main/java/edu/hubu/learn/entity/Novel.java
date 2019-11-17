@@ -27,5 +27,9 @@ public class Novel {
     @Column(name="avatar_url")
     private String avatar;
 
+	public String getPassword() {
+		return null;
+	}
+
    
 }
