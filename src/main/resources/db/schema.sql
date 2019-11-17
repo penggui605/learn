@@ -6,6 +6,7 @@ CREATE TABLE `novel` (
   `novelname` varchar(50) DEFAULT NULL comment '书名',
   `writer` varchar(255) DEFAULT NULL comment '作者',
   `type` varchar(255) DEFAULT NULL comment '类型',
+   `avatar_url` varchar(200) DEFAULT '' comment '头像',
   PRIMARY KEY (`id`)
 );
 ALTER TABLE `novel` ADD UNIQUE (`novelname`);

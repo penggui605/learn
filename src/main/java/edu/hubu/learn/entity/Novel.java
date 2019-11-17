@@ -1,5 +1,6 @@
 package edu.hubu.learn.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -22,6 +23,9 @@ public class Novel {
     private String writer;
 
     private String type;
+
+    @Column(name="avatar_url")
+    private String avatar;
 
    
 }
