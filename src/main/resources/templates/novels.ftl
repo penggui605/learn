@@ -30,14 +30,15 @@
       <div class="col-md-8">      
         <table class="table table-hover">
           <thead>
-          <th>ID</th><th>书名</th><th>作者</th><th>类型</th><th>删除</th><th>修改</th>
+          <th>ID</th><th>书名</th><th>头像</th><th>作者</th><th>类型</th><th>删除</th><th>修改</th><th>头像</th>
           </thead>
           <tbody>
           <#list novels as novel>
           <tr>
-          <td>${novel.id}</td><td>${novel.novelname}</td><td>${novel.writer}</td><td>${novel.type}</td>
+          <td>${novel.id}</td><td>${novel.novelname}</td><td>${novel.avatar}</td><td>${novel.writer}</td><td>${novel.type}</td>
           <td><a href="/novel/delete/${novel.id}">删除</a></td>
           <td><a href="/novel/modify/${novel.id}">修改</a></td>
+          <td><a href="/novel/add_avatar/${novel.id}">上传</a></td>
          
           </tr>
           </#list>

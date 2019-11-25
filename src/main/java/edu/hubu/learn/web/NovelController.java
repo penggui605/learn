@@ -117,7 +117,7 @@ public class NovelController {
             File dest = new File(filePath + fileName);
             log.info(dest.getAbsolutePath());
             file.transferTo(dest);
-            Novel user = novelService.getNovel(id);
+            Novel novel = novelService.getNovel(id);
             novel.setAvatar(fileName);
             novelService.modifyNovel(novel);
         } catch (Exception e) {
